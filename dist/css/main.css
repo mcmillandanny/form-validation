@@ -78,15 +78,30 @@ body {
 
 /* 2. Content ================================= */
 .wrapper {
-	width: 960px;
-	margin: auto;
+	width: 350px;
+	height: 350px;
+	posistion: relative;
+	margin: 5% 35%;
 	background: gray;
-	height: 768px;
 }
 
-input {
-	margin: 100px;
+.wrapper h1 {
+	text-align: center;
+	font-size: 2rem;
+	padding: 5% 5%;
+	border-bottom: 1px solid orange;
+}
+
+.wrapper p {
+	padding-left: 5%;
+	text-align: center;
+}
+
+.wrapper input {
+	text-align: center;
+	width: auto;
 	outline: none;
+	margin: 5% 35%;
 }
 
 /*# sourceMappingURL=main.css.map */
